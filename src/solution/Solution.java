@@ -4,13 +4,13 @@ public class Solution {
 
 	public static int solution(String S) {
 
-		String[] phrases = S.split("\\.|\\?|!"); //Separadores 
+		String[] phrases = S.split("\\.|\\?|!"); 
 
 		int max = 0;
 
 		for (int i = 0; i < phrases.length; i++) {
 
-			String[] words = phrases[i].split(" "); //separa até espaço
+			String[] words = phrases[i].split(" "); 
 
 			int length = 0;
 
